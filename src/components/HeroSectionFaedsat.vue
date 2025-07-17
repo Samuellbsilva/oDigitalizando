@@ -200,6 +200,7 @@ export default {
 }
 
 .back {
+  background: url("../../Imgs/Textura.png"),
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -207,6 +208,7 @@ export default {
 }
 
 .back2 {
+  background: url("../../Imgs/Textura.png"),
   background-size: cover;
   background-position: center;
   height: 100vh;
