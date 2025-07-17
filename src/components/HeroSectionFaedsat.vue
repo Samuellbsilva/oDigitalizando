@@ -209,8 +209,6 @@ export default {
 }
 
 .back2 {
-  background: url("/home/apascentar/Área de Trabalho /Samuel/Trabalho/Freelancer/Digitalizando/Digitalizando/public/Imgs/Textura.png"),
-    /* Textura */ linear-gradient(to bottom, #000000, #172243); /* Gradiente de fundo */
   background-size: cover;
   background-position: center;
   height: 100vh;
