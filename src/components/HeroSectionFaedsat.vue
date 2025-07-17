@@ -158,6 +158,7 @@
 </template>
 
 <script>
+import textura from "@/public/Imgs/Textura.png";
 import CarouselInit from "./CarouselInit.vue";
 import EmailJS from "./EmailJS.vue";
 
@@ -200,7 +201,7 @@ export default {
 }
 
 .back {
-  background: url("../../Imgs/Textura.png"),
+  background-image: url(v-bind(textura));
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -208,7 +209,7 @@ export default {
 }
 
 .back2 {
-  background: url("../../Imgs/Textura.png"),
+  background-image: url(v-bind(textura));
   background-size: cover;
   background-position: center;
   height: 100vh;
