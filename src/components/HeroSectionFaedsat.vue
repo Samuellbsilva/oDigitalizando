@@ -200,7 +200,7 @@ export default {
 }
 
 .back {
-  background: url("/Imgs/Textura.png"),
+  background: url("/home/apascentar/Área de Trabalho /Samuel/Trabalho/Freelancer/Digitalizando/Digitalizando/public/Imgs/Textura.png"),
     /* Textura */ linear-gradient(to bottom, #172243, #000000); /* Gradiente de fundo */
   background-size: cover;
   background-position: center;
@@ -209,7 +209,7 @@ export default {
 }
 
 .back2 {
-  background: url("/Imgs/Textura.png"),
+  background: url("/home/apascentar/Área de Trabalho /Samuel/Trabalho/Freelancer/Digitalizando/Digitalizando/public/Imgs/Textura.png"),
     /* Textura */ linear-gradient(to bottom, #000000, #172243); /* Gradiente de fundo */
   background-size: cover;
   background-position: center;
