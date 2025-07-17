@@ -207,6 +207,7 @@ export default {
   height: 100vh;
   background-blend-mode: multiply; /* Mistura a textura com o gradiente */
 }
+
 .back2 {
   background: url("/Imgs/Textura.png"),
     /* Textura */ linear-gradient(to bottom, #000000, #172243); /* Gradiente de fundo */
