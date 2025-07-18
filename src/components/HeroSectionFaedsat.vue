@@ -33,7 +33,7 @@
                   Sua presença online começa aqui.
                 </h3>
               </div>
-              <div class="flex w-4/8 justify-end">
+              <div class="flex w-4/8 justify-end opacity-1">
                 <img
                   src="/Imgs/Astronauta.png"
                   alt="Astronauta"
@@ -225,12 +225,20 @@ export default {
 }
 
 .back {
-  background-image: url("https://as2.ftcdn.net/jpg/02/71/23/05/1000_F_271230548_rDNFqostSo7qj2ejieKM9EA8WrsUC26u.jpg");
-  background-size: cover;
-  background-position: center;
-  background-blend-mode: multiply;
-  height: 100vh;
-  opacity: 0.5;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("https://img.freepik.com/fotos-gratis/foto-do-padrao-de-textura-do-solo_58702-15800.jpg?semt=ais_hybrid&w=740");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3; // Ajuste a opacidade como quiser
+    z-index: -1;
+  }
 }
 
 .created {
