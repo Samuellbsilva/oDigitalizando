@@ -233,7 +233,7 @@ export default {
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url("https://img.freepik.com/fotos-premium/textura-de-papel-amassado-preto-com-espaco-de-copia_236836-18640.jpg");
+    background-image: url("https://img.freepik.com/fotos-premium/textura-tejido-negro_719536-1111.jpg");
     background-size: cover;
     background-position: center;
     opacity: 0.2; // Ajuste a opacidade como quiser
