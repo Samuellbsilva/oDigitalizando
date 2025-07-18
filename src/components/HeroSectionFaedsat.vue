@@ -225,7 +225,7 @@ export default {
 }
 
 .back {
-  background-image: url("/Imgs/Textura.png");
+  background-image: url("https://as2.ftcdn.net/jpg/02/71/23/05/1000_F_271230548_rDNFqostSo7qj2ejieKM9EA8WrsUC26u.jpg");
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
