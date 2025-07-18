@@ -233,10 +233,10 @@ export default {
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url("https://img.freepik.com/fotos-gratis/foto-do-padrao-de-textura-do-solo_58702-15800.jpg?semt=ais_hybrid&w=740");
+    background-image: url("https://img.freepik.com/fotos-gratis/fundo-de-textura-de-parede-pintada-de-preto_53876-63602.jpg");
     background-size: cover;
     background-position: center;
-    opacity: 0.3; // Ajuste a opacidade como quiser
+    opacity: 0.2; // Ajuste a opacidade como quiser
     z-index: -1;
   }
 }
