@@ -1,276 +1,138 @@
 <template>
-  <main class="flex flex-col h-full created">
-    <div
-      class="fadeElement flex w-full justify-center items-center content-center h-3/8 mb-0"
-    >
-      <CarouselInit
-        class="fadeElement flex w-4/4 justify-center items-center content-center fadeInAnimation"
-      />
-    </div>
+  <main class="flex flex-col min-h-screen created fade-in">
+    <!-- Hero Section -->
+    <section class="hero-section fadeElement">
+      <CarouselInit class="w-full max-w-screen-xl mx-auto fadeInAnimation" />
+    </section>
 
-    <div class="fadeElement back sm:justify-center pt-0 lg:text-center h-2/8">
-      <div class="w-full flex flex-col">
-        <div class="w-full flex flex-col">
-          <div class="w-full mx-auto flex flex-row">
-            <div class="flex w-2/4 created p-1"></div>
-            <div class="flex w-2/4 alternated p-1"></div>
+    <!-- Intro Section -->
+    <section class="back fadeElement flex flex-col sm:justify-center pt-0 lg:text-center">
+      <div class="w-full flex flex-col items-center gap-8 py-10 px-6 sm:px-20">
+        <div class="w-full flex flex-col lg:flex-row justify-between items-center gap-8">
+          <div class="flex-1 text-left">
+            <h1 class="colortext2 text-4xl sm:text-6xl font-bold leading-tight mb-4">
+              Prepare-se para explorar o universo digital
+            </h1>
+            <h3 class="colortext2 text-lg sm:text-2xl">
+              Sua presença online começa aqui.
+            </h3>
           </div>
-          <div class="flex flex-col fadeElement">
-            <div class="flex flex-col mt-5 sm:flex-row pt-0">
-              <div
-                class="flex w-4/8 flex-col content-center justify-center ml-5 sm:ml-10"
-              >
-                <h1
-                  class="colortext2 fadeElement text-3xl pt-10 flex w-full justify-center text-start sm:text-start sm:text-7xl pt-0"
-                >
-                  Prepare-se para explorar o universo digital
-                </h1>
-                <h3
-                  class="colortext2 fadeElement text-sm flex w-full text-start sm:text-xl"
-                >
-                  Sua presença online começa aqui.
-                </h3>
-              </div>
-              <div class="flex w-4/8 justify-end flex">
-                <img
-                  src="/Imgs/Astronauta.png"
-                  alt=""
-                  class="w-5/5 cursor-pointer md:w-5/5 h-full"
-                />
-              </div>
-            </div>
+          <div class="flex-1">
+            <img src="/Imgs/Astronauta.png" alt="Astronauta" class="w-full h-auto object-contain" />
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <!-- Make sure this div section is closed correctly -->
-    <div
-      class="flex flex-col pt-5 created2 colortext2 md:flex-row w-full justify-around"
-    >
-      <div
-        class="flex flex-col justify-start items-start content-start p-4 fadeElement"
-      >
-        <span class="material-symbols-outlined notranslate"> code </span>
-        <h3>Criação de Sites</h3>
-        <p class="text-start">
-          Criamos sites modernos e funcionais, adaptados às necessidades do seu
-          negócio. De landing pages a plataformas completas, ajudamos a sua
-          marca a ter presença online com soluções personalizadas.
-        </p>
-      </div>
+    <!-- Services Section -->
+    <section class="created2 colortext2 py-16 px-6 sm:px-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 fadeElement">
+      <ServiceCard icon="code" title="Criação de Sites" text="Criamos sites modernos e funcionais, adaptados às necessidades do seu negócio. De landing pages a plataformas completas, ajudamos a sua marca a ter presença online com soluções personalizadas." />
+      <ServiceCard icon="smart_toy" title="Assistentes de IA" text="Integre assistentes virtuais inteligentes em sua plataforma. Automatize processos, melhore a experiência do usuário e forneça respostas rápidas e eficientes com soluções baseadas em inteligência artificial." />
+      <ServiceCard icon="bar_chart" title="Gestão de Tráfego" text="Gerencie e otimize o tráfego do seu site. Oferecemos estratégias de marketing digital e campanhas pagas para aumentar sua visibilidade online e atrair mais clientes para o seu negócio." />
+      <ServiceCard icon="group" title="Consultoria Digital" text="Nossos especialistas em tecnologia e marketing digital estão prontos para ajudar sua empresa a se destacar no mercado online. Oferecemos consultoria personalizada para transformar seus processos e otimizar resultados." />
+    </section>
 
-      <div
-        class="flex flex-col justify-start items-start content-start p-3 fadeElement"
-      >
-        <span class="material-symbols-outlined notranslate"> smart_toy </span>
-        <h3>Assistentes de IA</h3>
-        <p class="text-start">
-          Integre assistentes virtuais inteligentes em sua plataforma.
-          Automatize processos, melhore a experiência do usuário e forneça
-          respostas rápidas e eficientes com soluções baseadas em inteligência
-          artificial.
-        </p>
-      </div>
-
-      <div
-        class="flex flex-col justify-start items-start content-start p-3 fadeElement"
-      >
-        <span class="material-symbols-outlined notranslate"> bar_chart </span>
-        <h3>Gestão de Tráfego</h3>
-        <p class="text-start">
-          Gerencie e otimize o tráfego do seu site. Oferecemos estratégias de
-          marketing digital e campanhas pagas para aumentar sua visibilidade
-          online e atrair mais clientes para o seu negócio.
-        </p>
-      </div>
-
-      <div
-        class="flex flex-col justify-start items-start content-start p-3 fadeElement"
-      >
-        <span class="material-symbols-outlined notranslate"> group </span>
-        <h3>Consultoria Digital</h3>
-        <p class="text-start">
-          Nossos especialistas em tecnologia e marketing digital estão prontos
-          para ajudar sua empresa a se destacar no mercado online. Oferecemos
-          consultoria personalizada para transformar seus processos e otimizar
-          resultados.
-        </p>
-      </div>
-    </div>
-
-    <div
-      class="flex w-4/8 p-10 flex-col created content-center justify-center ml-0 sm:flex-row"
-    >
-      <div class="flex-col w-full sm:w-3/5">
-        <h1
-          class="colortext2 fadeElement text-3xl w-full pt-10 flex text-center sm:text-left justify-start sm:justify-start sm:text-6xl pt-0"
-        >
-          Transformamos ideias em<br />
-          presença digital
+    <!-- Benefits Section -->
+    <section class="flex flex-col sm:flex-row items-center justify-between py-16 px-6 sm:px-20 fadeElement">
+      <div class="flex-1 mb-10 sm:mb-0">
+        <h1 class="colortext2 text-3xl sm:text-5xl font-bold mb-6">
+          Transformamos ideias em<br />presença digital
         </h1>
-        <div class="flex flex-wrap justify-around p-2">
-          <!-- Primeira frase -->
-          <div class="flex flex-row-reverse items-center p-1 fadeElement">
-            <span class="material-symbols-outlined text-3xl">check</span>
-            <h3 class="text-sm sm:text-lg mt-2 colortext2">
-              Sites otimizados com SEO para atrair e converter leads.
-            </h3>
-          </div>
-
-          <!-- Segunda frase -->
-          <div class="flex flex-row-reverse items-center p-1 fadeElement">
-            <span class="material-symbols-outlined text-3xl">check</span>
-            <h3 class="text-sm sm:text-lg mt-2 colortext2">
-              Aumente a visibilidade do seu site com estratégias de tráfego
-            </h3>
-          </div>
-
-          <!-- Terceira frase -->
-          <div class="flex flex-row-reverse items-center p-1 fadeElement">
-            <span class="material-symbols-outlined text-3xl">check</span>
-            <h3 class="text-sm sm:text-lg mt-2 colortext2">
-              Estruturamos sua marca no digital com e-mails profissionais.
-            </h3>
-          </div>
-
-          <!-- Quarta frase -->
-          <div class="flex flex-row-reverse items-center p-1 fadeElement">
-            <span class="material-symbols-outlined text-3xl">check</span>
-            <h3 class="text-sm sm:text-lg mt-2 colortext2">
-              Automatize processos com assistentes virtuais
-            </h3>
-          </div>
-        </div>
+        <ul class="space-y-4">
+          <BenefitItem text="Sites otimizados com SEO para atrair e converter leads." />
+          <BenefitItem text="Aumente a visibilidade do seu site com estratégias de tráfego." />
+          <BenefitItem text="Estruturamos sua marca no digital com e-mails profissionais." />
+          <BenefitItem text="Automatize processos com assistentes virtuais." />
+        </ul>
       </div>
-      <div class="flex w-full sm:w-2/5 fadeElement">
-        <img
-          src="/Imgs/PrintCliente.png"
-          class="w-full sm:w-3/5 rounded-md"
-          alt=""
-        />
+      <div class="flex-1">
+        <img src="/Imgs/PrintCliente.png" class="w-full sm:w-3/4 rounded-lg shadow-lg" alt="Print do Cliente" />
       </div>
-    </div>
-    <div class="created2 pt-10 pb-20">
-      <EmailJS class="created2 fadeElement" />
-    </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="created2 py-10 fadeElement">
+      <EmailJS />
+    </section>
   </main>
 </template>
 
-<script>
-import textura from "@/public/Imgs/Textura.png";
+<script setup>
 import CarouselInit from "./CarouselInit.vue";
 import EmailJS from "./EmailJS.vue";
 
-export default {
-  components: {
-    CarouselInit,
-    EmailJS,
-  },
-  mounted() {
-    this.addFadeInOnScroll();
-  },
-  methods: {
-    addFadeInOnScroll() {
-      const elements = document.querySelectorAll(".fadeElement");
+// Subcomponents
+const ServiceCard = defineComponent({
+  props: ['icon', 'title', 'text'],
+  template: `
+    <div class="flex flex-col items-start gap-4 p-4 border border-gray-700 rounded-lg shadow-md hover:shadow-xl transition-all duration-300">
+      <span class="material-symbols-outlined text-4xl text-primary">{{ icon }}</span>
+      <h3 class="text-xl font-semibold">{{ title }}</h3>
+      <p class="text-base text-justify">{{ text }}</p>
+    </div>
+  `
+});
 
-      const observer = new IntersectionObserver(
-        (entries) => {
-          entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-              entry.target.classList.add("fade-in");
-            }
-          });
-        },
-        {
-          threshold: 0.1,
-        }
-      );
-
-      elements.forEach((element) => observer.observe(element));
-    },
-  },
-};
+const BenefitItem = defineComponent({
+  props: ['text'],
+  template: `
+    <li class="flex items-start gap-3">
+      <span class="material-symbols-outlined text-2xl text-green-500">check</span>
+      <span class="text-base sm:text-lg colortext2">{{ text }}</span>
+    </li>
+  `
+});
 </script>
 
 <style lang="scss" scoped>
 @import "../styles/_mixins.scss";
-.fadeElement {
-  opacity: 0;
-  transition: opacity 1.5s ease-in-out;
+
+main {
+  animation: fadeInUp 1s ease forwards;
 }
 
 .back {
-  background-image: url(v-bind(textura));
+  background-image: url("/Imgs/Textura.png");
   background-size: cover;
   background-position: center;
-  height: 100vh;
-  background-blend-mode: multiply; /* Mistura a textura com o gradiente */
+  background-blend-mode: multiply;
 }
 
-.back2 {
-  background-image: url(v-bind(textura));
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  background-blend-mode: multiply; /* Mistura a textura com o gradiente */
-}
-.notranslate {
-  unicode-bidi: isolate;
-}
-.fade-in {
-  opacity: 1;
-}
-.animation {
-  animation: bounce 1.2s infinite ease-in-out;
-}
-@keyframes bounce {
-  0%,
-  100% {
-    transform: translateX(0);
-  }
-  50% {
-    transform: translateX(-25px);
-  }
-}
 .created {
   background: linear-gradient(to bottom, #172243, #000000);
 }
+
 .created2 {
   background: linear-gradient(to bottom, #000000, #172243);
-}
-.alternated {
-  background: linear-gradient(to bottom, #ece5da, #000000);
-}
-.fadeInAnimation {
-  animation: fadeInAnimation 2s ease forwards;
-}
-@keyframes fadeInAnimation {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-.darkmode {
-  @include background-color($dark-background-color);
-  @include text-color($light-light-gray);
-  @include border-color($dark-dark-gray);
-}
-
-.colortext {
-  color: #ece5da;
 }
 
 .colortext2 {
   color: #cfc8bc;
 }
-.lightmode {
-  @include background-color($light-white);
-  @include text-color($light-text-color);
-  @include border-color($dark-dark-gray);
+
+.fadeElement {
+  opacity: 0;
+  transition: opacity 1.5s ease, transform 1.5s ease;
+  transform: translateY(20px);
+}
+
+.fade-in {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 1;
 }
 </style>
