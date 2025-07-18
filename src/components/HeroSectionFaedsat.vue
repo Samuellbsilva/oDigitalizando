@@ -53,7 +53,10 @@
       <div
         class="flex flex-col justify-start items-start content-start p-4 fadeElement hover:scale-105 transition-transform duration-500"
       >
-        <span class="material-symbols-outlined notranslate text-4xl text-primary">code</span>
+        <span
+          class="material-symbols-outlined notranslate text-4xl text-primary"
+          >code</span
+        >
         <h3 class="text-xl font-bold">Criação de Sites</h3>
         <p class="text-start">
           Criamos sites modernos e funcionais , adaptados às necessidades do seu
@@ -65,7 +68,10 @@
       <div
         class="flex flex-col justify-start items-start content-start p-3 fadeElement hover:scale-105 transition-transform duration-500"
       >
-        <span class="material-symbols-outlined notranslate text-4xl text-primary">smart_toy</span>
+        <span
+          class="material-symbols-outlined notranslate text-4xl text-primary"
+          >smart_toy</span
+        >
         <h3 class="text-xl font-bold">Assistentes de IA</h3>
         <p class="text-start">
           Integre assistentes virtuais inteligentes em sua plataforma.
@@ -78,7 +84,10 @@
       <div
         class="flex flex-col justify-start items-start content-start p-3 fadeElement hover:scale-105 transition-transform duration-500"
       >
-        <span class="material-symbols-outlined notranslate text-4xl text-primary">bar_chart</span>
+        <span
+          class="material-symbols-outlined notranslate text-4xl text-primary"
+          >bar_chart</span
+        >
         <h3 class="text-xl font-bold">Gestão de Tráfego</h3>
         <p class="text-start">
           Gerencie e otimize o tráfego do seu site. Oferecemos estratégias de
@@ -90,7 +99,10 @@
       <div
         class="flex flex-col justify-start items-start content-start p-3 fadeElement hover:scale-105 transition-transform duration-500"
       >
-        <span class="material-symbols-outlined notranslate text-4xl text-primary">group</span>
+        <span
+          class="material-symbols-outlined notranslate text-4xl text-primary"
+          >group</span
+        >
         <h3 class="text-xl font-bold">Consultoria Digital</h3>
         <p class="text-start">
           Nossos especialistas em tecnologia e marketing digital estão prontos
@@ -114,25 +126,33 @@
         </h1>
         <div class="flex flex-wrap justify-around p-2">
           <div class="flex flex-row-reverse items-center p-1 fadeElement">
-            <span class="material-symbols-outlined text-3xl text-green-500">check</span>
+            <span class="material-symbols-outlined text-3xl text-green-500"
+              >check</span
+            >
             <h3 class="text-sm sm:text-lg mt-2 colortext2">
               Sites otimizados com SEO para atrair e converter leads.
             </h3>
           </div>
           <div class="flex flex-row-reverse items-center p-1 fadeElement">
-            <span class="material-symbols-outlined text-3xl text-green-500">check</span>
+            <span class="material-symbols-outlined text-3xl text-green-500"
+              >check</span
+            >
             <h3 class="text-sm sm:text-lg mt-2 colortext2">
               Aumente a visibilidade do seu site com estratégias de tráfego
             </h3>
           </div>
           <div class="flex flex-row-reverse items-center p-1 fadeElement">
-            <span class="material-symbols-outlined text-3xl text-green-500">check</span>
+            <span class="material-symbols-outlined text-3xl text-green-500"
+              >check</span
+            >
             <h3 class="text-sm sm:text-lg mt-2 colortext2">
               Estruturamos sua marca no digital com e-mails profissionais.
             </h3>
           </div>
           <div class="flex flex-row-reverse items-center p-1 fadeElement">
-            <span class="material-symbols-outlined text-3xl text-green-500">check</span>
+            <span class="material-symbols-outlined text-3xl text-green-500"
+              >check</span
+            >
             <h3 class="text-sm sm:text-lg mt-2 colortext2">
               Automatize processos com assistentes virtuais
             </h3>
@@ -205,7 +225,7 @@ export default {
 }
 
 .back {
-  background-image: url("https://img.freepik.com/fotos-premium/efeito-de-sobreposicao-de-foto-com-textura-de-superficie-de-fundo-de-filme-plastico-transparente-com-sobreposicao-de-modo-de-tela_477306-4581.jpg?semt=ais_hybrid&w=740");
+  background-image: url("/Imgs/Textura.png");
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
@@ -248,7 +268,8 @@ export default {
 }
 
 @keyframes bounce {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateX(0);
   }
   50% {
@@ -276,4 +297,3 @@ export default {
   @include border-color($dark-dark-gray);
 }
 </style>
-
