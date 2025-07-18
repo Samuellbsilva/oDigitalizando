@@ -233,7 +233,7 @@ export default {
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url("https://img.freepik.com/fotos-gratis/fundo-de-textura-de-couro-preto-original_24972-1600.jpg?semt=ais_hybrid&w=740");
+    background-image: url("https://media.istockphoto.com/id/1496481124/pt/foto/black-luxury-silk-textile-material-background.jpg?s=612x612&w=0&k=20&c=Qc9T6kAkB4jEbCzHyFM2uLOw3uphJ5bGqkX8NEJZvLE=");
     background-size: cover;
     background-position: center;
     opacity: 0.2; // Ajuste a opacidade como quiser
