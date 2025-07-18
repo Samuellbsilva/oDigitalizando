@@ -92,7 +92,7 @@ main {
 }
 
 .back {
-  background-image: url("/Imgs/Textura.png");
+  background-image: url("https://img.freepik.com/fotos-premium/efeito-de-sobreposicao-de-foto-com-textura-de-superficie-de-fundo-de-filme-plastico-transparente-com-sobreposicao-de-modo-de-tela_477306-4581.jpg?semt=ais_hybrid&w=740");
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
