@@ -205,23 +205,11 @@ export default {
 }
 
 .back {
-<<<<<<< HEAD
-  background: linear-gradient(to bottom, #172243, #000000);
-=======
   background-image: url("https://img.freepik.com/fotos-premium/efeito-de-sobreposicao-de-foto-com-textura-de-superficie-de-fundo-de-filme-plastico-transparente-com-sobreposicao-de-modo-de-tela_477306-4581.jpg?semt=ais_hybrid&w=740");
->>>>>>> 357aab79373c239a68a41d3954f9420de604709b
   background-size: cover;
   background-position: center;
-  height: 100vh;
   background-blend-mode: multiply;
-}
-
-.back2 {
-  background: url("/Imgs/Textura.png"), linear-gradient(to bottom, #000000, #172243);
-  background-size: cover;
-  background-position: center;
   height: 100vh;
-  background-blend-mode: multiply;
 }
 
 .created {
@@ -260,8 +248,7 @@ export default {
 }
 
 @keyframes bounce {
-  0%,
-  100% {
+  0%, 100% {
     transform: translateX(0);
   }
   50% {
@@ -289,3 +276,4 @@ export default {
   @include border-color($dark-dark-gray);
 }
 </style>
+
