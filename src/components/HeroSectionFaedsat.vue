@@ -233,7 +233,7 @@ export default {
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url("https://img.freepik.com/fotos-gratis/fundo-de-textura-de-parede-pintada-de-preto_53876-63602.jpg");
+    background-image: url("https://img.freepik.com/fotos-gratis/fundo-de-textura-de-couro-preto-original_24972-1600.jpg?semt=ais_hybrid&w=740");
     background-size: cover;
     background-position: center;
     opacity: 0.2; // Ajuste a opacidade como quiser
