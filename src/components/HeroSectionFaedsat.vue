@@ -233,7 +233,7 @@ export default {
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url("https://img.freepik.com/fotos-premium/textura-de-fundo-preto_453135-191.jpg");
+    background-image: url("https://img.freepik.com/fotos-premium/fundo-preto-com-uma-luz-brilhando-sobre-ele_721263-590.jpg");
     background-size: cover;
     background-position: center;
     opacity: 0.2; // Ajuste a opacidade como quiser
