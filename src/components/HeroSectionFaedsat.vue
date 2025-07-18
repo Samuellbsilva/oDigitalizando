@@ -230,6 +230,7 @@ export default {
   background-position: center;
   background-blend-mode: multiply;
   height: 100vh;
+  opacity:0.5;
 }
 
 .created {
