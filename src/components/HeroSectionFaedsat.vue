@@ -233,7 +233,7 @@ export default {
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url("https://img.pikbest.com/back_our/20211011/bg/445927881adcc3351d0108de41a77c72_112560.png!f305cw");
+    background-image: url("https://i.pinimg.com/736x/13/b2/cb/13b2cba2dbc76f4cd2ae69b15853c79c.jpg");
     background-size: cover;
     background-position: center;
     opacity: 0.2; // Ajuste a opacidade como quiser
