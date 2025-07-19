@@ -233,7 +233,7 @@ export default {
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url("https://img.freepik.com/fotos-premium/fundo-preto-com-uma-luz-brilhando-sobre-ele_721263-590.jpg");
+    background-image: url("https://img.pikbest.com/back_our/20211011/bg/445927881adcc3351d0108de41a77c72_112560.png!f305cw");
     background-size: cover;
     background-position: center;
     opacity: 0.2; // Ajuste a opacidade como quiser
