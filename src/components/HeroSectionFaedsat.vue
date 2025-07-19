@@ -233,7 +233,7 @@ export default {
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url("https://img.pikbest.com/wp/202346/sleek-metallic-background-with-3d-lines_9617821.jpg!w700wp");
+    background-image: url("https://enroladotecidos.vteximg.com.br/arquivos/ids/172278-1000-1000/Tecido-cetim-3l-preto.jpg?v=638204655678930000");
     background-size: cover;
     background-position: center;
     opacity: 0.2; // Ajuste a opacidade como quiser
