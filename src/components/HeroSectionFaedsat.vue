@@ -233,7 +233,7 @@ export default {
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url("https://i.pinimg.com/736x/13/b2/cb/13b2cba2dbc76f4cd2ae69b15853c79c.jpg");
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20190223/ourmid/pngtree-texture-black-background-image_68561.jpg");
     background-size: cover;
     background-position: center;
     opacity: 0.2; // Ajuste a opacidade como quiser
