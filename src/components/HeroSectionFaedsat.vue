@@ -233,7 +233,7 @@ export default {
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20190223/ourmid/pngtree-texture-black-background-image_68561.jpg");
+    background-image: url("https://img.pikbest.com/wp/202346/sleek-metallic-background-with-3d-lines_9617821.jpg!w700wp");
     background-size: cover;
     background-position: center;
     opacity: 0.2; // Ajuste a opacidade como quiser
