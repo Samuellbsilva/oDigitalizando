@@ -1,5 +1,5 @@
 <template>
-  <footer class="flex pt-0 h-1/8 shadow-md flex-col lightmode">
+  <footer class="flex pt-0 h-1/8 shadow-md flex-col created2">
     <div
       class="flex-col justify-around sm:flex flex-row h-6/8 justify-between w-full pt-2"
     >
@@ -73,7 +73,9 @@ export default {
   @include text-color($light-text-color);
   @include border-color($dark-dark-gray);
 }
-
+.created2 {
+  background: linear-gradient(to bottom, #000000, #172243);
+}
 .notranslate {
   unicode-bidi: isolate; /// retira a tradução de icones do google tradutor
 }
